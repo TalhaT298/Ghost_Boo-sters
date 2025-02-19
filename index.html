@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghost Boo-sters!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="game-info">
+      <h1>Ghost Boo-sters!</h1>
+      <p>Find and bust all the ghosts before time runs out!</p>
+      <p>Time Left: <span id="timer">20</span>s</p>
+      <p>Found: <span id="found">0</span>/<span id="total">5</span></p>
+      <button id="start-button">Start</button>
+      <button id="restart-button" class="hidden">Again?</button>
+    </div>
+    <div id="game-area">
+      <div class="ghost" id="ghost1"></div>
+      <div class="ghost" id="ghost2"></div>
+      <div class="ghost" id="ghost3"></div>
+      <div class="ghost" id="ghost4"></div>
+      <div class="ghost" id="ghost5"></div>
+      <div id="flashlight"></div> <!-- Flashlight effect -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
